@@ -21,8 +21,8 @@ class AuthController
     {
         $this->UserModel = new UserModel();
         $this->client = new Google_Client();
-        $this->clientID = "573821225413-ohk0ievea3th58p3ktukuijoh02lhuqj.apps.googleusercontent.com";
-        $this->clientSecret = "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";
+        $this->clientID = "";
+        $this->clientSecret = "";
         $this->redirectUri = "http://localhost/php2/login";
         $this->mail = new PHPMailer(true);
 
